@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Мой Расширенный Поиск</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="https://freepngimg.com/download/google/66912-logo-now-google-plus-search-free-transparent-image-hd.png" >
+    </head>
+    <body> 
+        <nav class="navbar">
+            <div class="nav-links"><a href="index.html">Поиск Google</a></div>
+            <div class="nav-links"><a href="image.html">Google Картинки</a></div>
+        </nav>
+        <div><a href="index.html">
+            <img class="logo-small" src="https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </a>
+        </div>
+        <div class="adv-search">Расширенный Поиск</div>
+        <div class="adv12">
+            <div class="adv-blocks-grid">
+                <span class="adv1">Найти страницы</span>
+                <span class="adv2 grid-item1"> Как это работает в обычном поиске</span>
+            </div>
+        </div>
+        <form action="https://google.com/search" method="get" name="f">
+            <div class="adv-blocks-grid">
+                <span class="adv-title">со словами:</span>
+                <span class="adv-field"><input class="adv-textinput"  autocomplete="off" autofocus="autofocus"  name="as_q" type="text"></span>
+                <span class="adv-exp">Введите ключевые слова: <b>Иван Федорович Крузенштерн</b></span>
+            </div>
+            <div class="adv-blocks-grid">
+                <span class="adv-title">со словосочитанием:</span>
+                <span class="adv-field"><input class="adv-textinput"  autocomplete="off" autofocus="autofocus"  name="as_epq" type="text"></span>
+                <span class="adv-exp">Заключите словосочетание в кавычки:<b>"книга Иван Крузенштерн"</b></span>
+            </div>
+            <div class="adv-blocks-grid">
+                <span class="adv-title">с любым из этих слов:</span>
+                <span class="adv-field"><input class="adv-textinput"  autocomplete="off" autofocus="autofocus"  name="as_oq" type="text"></span>
+                <span class="adv-exp">Вставьте оператор OR между словами:<b>человек OR пароход</b></span>
+            </div>
+            <div class="adv-blocks-grid">
+                <span class="adv-title">без слов:</span>
+                <span class="adv-field"><input class="adv-textinput"  autocomplete="off" autofocus="autofocus"  name="as_eq" type="text"></span>
+                <span class="adv-exp">Поставьте знак минуса перед словами: <b>-пароход, -"книга о пароходе"</b></span>
+            </div>
+            <div class="adv-blocks-grid adv-button-position">
+                <input class="adv-button grid-item2" type="submit" value="Расширенный Поиск">
+            </div>
+        </form>        
+    </body>
+</html>
