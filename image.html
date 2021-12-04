@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Мой Поиск Картинок</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="https://freepngimg.com/download/google/66912-logo-now-google-plus-search-free-transparent-image-hd.png" >
+    </head>
+    <body> 
+        <nav class="navbar">
+            <div class="nav-links"><a href="index.html">Поиск Google</a></div>
+            <div class="nav-links"><a href="advSearch.html">Расширенный Поиск</a></div>
+        </nav>
+        <div class="logo flex-center">
+            <img src="https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+            <span class="logo-image-sign">Картинки</span>
+        </div>
+        <form action="https://google.com/search" autocomplete="off" method="GET" >
+            <div class="search-form flex-center">
+                <img class="search-icon" src="https://icon-library.com/images/google-search-magnifying-glass-icon/google-search-magnifying-glass-icon-5.jpg" >
+                <input class="q" type="text" name="q" placeholder="Введите запрос поиска">
+                <input type="hidden" name="tbm" value="isch">
+            </div>
+                <div class="button flex-center ">
+                <input type="submit" value="Поиск Картинок">
+            </div>
+        </form>
+    </body>

@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.search-form {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    font-size: 18px;
+}
+.search-form:hover {
+
+    background-color: rgb(253, 253, 253);
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.q, q:focus-visible {
+    border: 0px;
+    outline: rgb(226, 9, 9) auto 0px;
+    width: 93%;
+    margin-left: 1px;
+    margin-right: 18px;
+}
+.search-icon{
+    float: left;
+    margin: 12px;
+    width: 21px;
+    height: 21px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+.flex-row {
+        flex-direction: row;
+}
+.navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font: 14px/27px Arial,sans-serif;
+}
+a, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.navbar a {
+    color:rgb(83, 80, 80);
+}
+.nav-links{
+    margin-right: 10px;
+    margin-top:10px;
+}
+.logo{
+    text-align: center;
+    margin: 30px;
+    margin-top: 150px;
+}
+.logo-image-sign{
+    color: #4285f4;
+    font: 17px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: -57px;
+    bottom: -77px;
+}
+.logo-small{
+    height: 28px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.button input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 30px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.adv-search {
+    color:rgb(255, 71, 15);
+    font-size:14pt;
+    border-bottom: solid 1px #ebebeb;
+    padding: 15px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.adv1 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+.adv2 {
+    font-size: 11pt;
+    font-weight: bold;
+}
+.adv12 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.adv-blocks-grid {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 600px 300px;
+    align-items: center;
+}
+.adv-title {
+    font-size: 11pt;
+}
+.adv-exp {
+    font-size: 9pt;
+}
+.adv-textinput {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+    max-width: 550px;
+    vertical-align: middle;
+}
+.adv-field {
+    vertical-align: middle;
+}
+    
+.adv-textinput:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+.adv-button {
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 30px;
+    line-height: 27px;
+    min-width: 54px;
+    max-width: 154px;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    padding: 0 8px;
+    padding-top: 2px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    margin: 30px;
+}
+.adv-button:hover {
+    background-color: #357ae8;
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+    
+}
+.adv-button:active {
+    border: 1px solid black;
+}
+.grid {
+    display: grid;
+    padding: 50px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 100px 500px 200px
+}
+.grid-item1 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.grid-item2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.adv-button-position {
+    padding-left: 397px;
+}
